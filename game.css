@@ -1,0 +1,32 @@
+
+canvas, body, h1 {
+  background: transparent;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  font-family: MedievalSharp, cursive;
+
+}
+
+body {
+  background-image: url("./assets/game_background.jpg");
+
+}
+
+#demo-canvas {
+  border: 1px solid black;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  background-image: url('./assets/grass.png')
+}
+
+.game-title, .creator{
+  text-align: center;
+  margin: 0 auto;
+  margin: 10px 0;
+  color: #ff4b00;
+  text-shadow: 2px 2px #ffbc00;
+  font-size: 50px;
+}
