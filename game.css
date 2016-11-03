@@ -9,24 +9,72 @@ canvas, body, h1 {
 
 }
 
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+}
+
 body {
   background-image: url("./assets/game_background.jpg");
+  color: #ff4b00;
+  text-shadow: 2px 2px #ffbc00;
 
 }
 
 #demo-canvas {
   border: 1px solid black;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 10px;
-  background-image: url('./assets/grass.png')
+  display: inline-block;
+  margin-bottom: 0 auto;
+  background-image: url('./assets/grass.png');
+  float: left;
+
 }
 
 .game-title, .creator{
   text-align: center;
   margin: 0 auto;
   margin: 10px 0;
-  color: #ff4b00;
-  text-shadow: 2px 2px #ffbc00;
   font-size: 50px;
+}
+
+.creator {
+  /*margin-bottom: 50px;*/
+}
+
+.directions{
+  float: left;
+  margin-left: 20px;
+  padding: 0 5px;
+}
+
+.directions-title{
+  display: inline;
+}
+
+group::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.game-stuff{
+  font-size: 32px;
+  display: block;
+  padding-left: 321px;
+}
+
+p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.github-linkedin {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size:30px;
+  text-shadow: none;
 }
