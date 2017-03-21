@@ -219,6 +219,14 @@
 	};
 	
 	window.addEventListener("DOMContentLoaded", init);
+	window.onload = function () {
+	  var link = document.getElementById("restart");
+	
+	  link.onclick = function () {
+	    loadLevel();
+	    return false;
+	  };
+	};
 
 /***/ },
 /* 1 */
