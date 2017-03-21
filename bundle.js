@@ -135,7 +135,7 @@
 	};
 	
 	var onKeyDown = function onKeyDown(e) {
-	  console.log(e.keyCode);
+	  e.preventDefault();
 	  var didMove = false;
 	  switch (e.keyCode) {
 	    case 37:
