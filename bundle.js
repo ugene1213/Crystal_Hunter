@@ -85,9 +85,14 @@
 	var tiles = void 0;
 	
 	var init = function init() {
+	  var link = document.getElementById("restart");
+	  link.addEventListener("click", function (e) {
+	    e.preventDefault();
+	    diamondTiles = [];
+	    loadLevel();
+	  });
 	  prepareWorld();
 	  window.addEventListener("keydown", onKeyDown);
-	
 	  loadLevel();
 	};
 	
@@ -98,6 +103,13 @@
 	  mapGroup.y = 50;
 	  stage.addChild(mapGroup);
 	};
+	
+	// const levelOpener = () => {
+	//   mapGroup.removeAllChildren();
+	//   const text = new createjs.Text("Level" + currentLevel, "20px Arial", "black");
+	//   mapGroup.addChild(text);
+	//   loadLevel();
+	// };
 	
 	var loadLevel = function loadLevel() {
 	  hero = null;
@@ -208,6 +220,8 @@
 	    return tileArr[tileArr.length - 1].name != 'chest';
 	  });
 	
+	  console.log(diamondTiles);
+	
 	  if (!anyFailing) {
 	    currentLevel++;
 	    if (currentLevel === _levels2.default.length) {
@@ -219,14 +233,6 @@
 	};
 	
 	window.addEventListener("DOMContentLoaded", init);
-	window.onload = function () {
-	  var link = document.getElementById("restart");
-	
-	  link.onclick = function () {
-	    loadLevel();
-	    return false;
-	  };
-	};
 
 /***/ },
 /* 1 */
