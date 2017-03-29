@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./game.css" media="screen" title="no title" charset="utf-8">
     <script src="./bundle.js" charset="utf-8"></script>
   </head>
-  <body>
+  <body class="group">
     <h1 class="game-title">Crystal Hunter</h1>
     <br/>
     <h2 class="creator">by: Eugene Cheng</h2>
@@ -17,7 +17,12 @@
       <a class="github"href="https://github.com/ugene1213/Crystal_Hunter">Github</a>
     </div>
     <div class="game-stuff">
-      <canvas id="demo-canvas" width="600" height="500">hello</canvas>
+
+      <div class="game-game" width="600" height="500">
+        <canvas class="group" id="demo-canvas" width="600" height="500">
+        </canvas>
+        <a id="restart" href="http://www.google.com">Restart Level</a>
+      </div>
 
       <div class="directions">
         <h2 class='directions-title'>Directions</h2>
@@ -27,9 +32,6 @@
         </p>
       </div>
 
-      <div class="restart-level">
-        <a id="restart" href="http://www.google.com">Restart Level</a>
-      </div>
 
     </div>
 

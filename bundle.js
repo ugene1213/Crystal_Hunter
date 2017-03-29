@@ -86,6 +86,7 @@
 	
 	var init = function init() {
 	  var link = document.getElementById("restart");
+	  //this will reset the level
 	  link.addEventListener("click", function (e) {
 	    e.preventDefault();
 	    diamondTiles = [];

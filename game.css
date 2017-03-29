@@ -22,40 +22,27 @@ body {
   background-image: url("./assets/game_background.jpg");
   color: #ff4b00;
   text-shadow: 2px 2px #ffbc00;
-
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 #demo-canvas {
   border: 1px solid black;
-  display: inline-block;
-  margin-bottom: 0 auto;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
   background-image: url('./assets/grass.png');
-  float: left;
 
 }
 
 .game-title, .creator{
   text-align: center;
   margin: 0 auto;
-  margin: 10px 0;
   font-size: 50px;
 }
 
-.creator {
-  /*margin-bottom: 50px;*/
-}
-
-.directions{
-  float: left;
-  margin-left: 20px;
-  padding: 0 5px;
-}
-
-.directions-title{
-  display: inline;
-}
-
-group::after{
+.group:after{
   display: block;
   content: "";
   clear: both;
@@ -63,9 +50,12 @@ group::after{
 
 .game-stuff{
   font-size: 32px;
-  display: block;
-  padding-left: 321px;
+  width: 100%;
 }
+
+
+
+
 
 p {
   font-size: 32px;
@@ -77,4 +67,29 @@ p {
   margin-bottom: 20px;
   font-size:30px;
   text-shadow: none;
+}
+
+.directions {
+  display: block;
+  width: 50.00%;
+  float: left;
+  box-sizing: border-box;
+}
+
+#restart {
+  position: absolute;
+  bottom: 0px;
+  right: 7px;
+}
+
+.game-game {
+  position: relative;
+  width: 50.00%;
+  float: left;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.directions-title, p {
+  padding-left: 10px;
 }
