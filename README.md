@@ -50,4 +50,4 @@ class Tile extends createjs.Shape {
   }
 }
 ```
-This is a tile superclass, where all the objects, such as the chest, diamonds, and hero inherit from. This tile class inherits from the createJS Shape object, which allowed me use many of the Shape class' useful methods, such as bitMapFill, to make rendering images easier.
+This is the tile superclass, where all the objects, such as the chest, diamonds, and hero, inherit from. This tile class inherits from the createJS Shape object, which allowed me use many of the Shape class' useful methods, such as bitMapFill, to make rendering images easier.
