@@ -19,7 +19,7 @@ a:hover {
 }
 
 body {
-  background-image: url("./assets/game_background.jpg");
+  background-image: url("./assets/background_trees.jpg");
   color: #ff4b00;
   text-shadow: 2px 2px #ffbc00;
   width: 80%;
@@ -74,6 +74,7 @@ p {
   width: 50.00%;
   float: left;
   box-sizing: border-box;
+  font-size: 1
 }
 
 #restart {
