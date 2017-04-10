@@ -18,7 +18,7 @@ This is a simple block game. The objective of the game is to push all the tiles 
 
 Easel.js library was used in for all the sprites and images. I wanted to use Easel.js to see how the library was used. The game logic was implemented using vanilla JavaScript.
 
-##Some Code
+## Some Code
 
 ```javascript
 class Tile extends createjs.Shape {
@@ -50,4 +50,4 @@ class Tile extends createjs.Shape {
   }
 }
 ```
-This is a tile superclass, where all the objects, such as the chest, diamonds, and hero inherit from. This tile class inherits from the createJS Shape object, which allowed me use many of the Shape class' useful methods, such as bitMapFill, to make rendering images easier. 
+This is a tile superclass, where all the objects, such as the chest, diamonds, and hero inherit from. This tile class inherits from the createJS Shape object, which allowed me use many of the Shape class' useful methods, such as bitMapFill, to make rendering images easier.
