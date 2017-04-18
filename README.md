@@ -63,4 +63,4 @@ This is the tile superclass, where all the objects, such as the chest, diamonds,
 ## Future Features
 
 One of the reasons that I originally chose to use EaselJS because it simplifies the craetion of sprites and animations. I would like to add sprites to the game so that I can simulate movement for my
-hero. I might also add some extra animations such as a moving background.
+hero. I might also add some animations such as a moving background.
