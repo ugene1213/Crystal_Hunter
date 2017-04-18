@@ -140,10 +140,6 @@
 	    });
 	  });
 	
-	  if (!hero) {
-	    console.log("Could not find the hero!");
-	  }
-	
 	  stage.update();
 	};
 	
@@ -220,8 +216,6 @@
 	  var anyFailing = diamondTiles.some(function (tileArr) {
 	    return tileArr[tileArr.length - 1].name != 'chest';
 	  });
-	
-	  console.log(diamondTiles);
 	
 	  if (!anyFailing) {
 	    currentLevel++;
