@@ -22,12 +22,9 @@ Run ``` npm install ``` to install all the necessary dependencies.
 
 Finally, run ```npm run webpack``` and open the index.html file in your folder to start playing!
 
-
-
-
 ## Tools Used
 
-Easel.js library was used in for all the sprites and images. I wanted to use Easel.js to see how the library was used. The game logic was implemented using vanilla JavaScript.
+Easel.js library images. I wanted to use Easel.js to see how the library was used. The game logic was implemented using vanilla JavaScript.
 
 ## Some Code
 
@@ -61,10 +58,9 @@ class Tile extends createjs.Shape {
   }
 }
 ```
-This is the tile superclass, where all the objects, such as the chest, diamonds, and hero, inherit from. This tile class inherits from the createJS Shape object, which allowed me use many of the Shape class' useful methods, such as bitMapFill, to make rendering images easier.
+This is the tile superclass, where all the objects, such as the chest, diamonds, and hero, inherit from. This tile class inherits from the Shape object of the EaselJS, which is a module of createJS  , which allowed me use many of the Shape class' useful methods, such as bitMapFill, to make rendering images easier.
 
 ## Future Features
 
-I would like to add sprites to the game so that I can simulate movement for my
-hero. I might also add some extra animations such as a moving background. EaselJS
-makes creating sprites and animations much easier.
+One of the reasons that I originally chose to use EaselJS because it simplifies the craetion of sprites and animations. I would like to add sprites to the game so that I can simulate movement for my
+hero. I might also add some extra animations such as a moving background.
