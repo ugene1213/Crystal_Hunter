@@ -11,6 +11,18 @@
 
 This is a simple block game. The objective of the game is to push all the tiles onto the individual tiles using the arrow keys.
 
+## Running on Local Machine
+
+To run on your local machine, first clone the repository:
+
+```
+git clone http://github.com/ugene1213/Crystal_Hunter
+```
+Run ``` npm install ``` to install all the necessary dependencies.
+
+Finally, run ```npm run webpack``` and open the index.html file in your folder to start playing!
+
+
 
 
 ## Tools Used
