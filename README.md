@@ -20,7 +20,7 @@ git clone http://github.com/ugene1213/Crystal_Hunter
 ```
 Run ``` npm install ``` to install all the necessary dependencies.
 
-Finally, run ```npm run webpack``` and open the index.html file in your folder to start playing!
+Open the index.html file in your folder in your browser to start playing!
 
 ## Tools Used
 
